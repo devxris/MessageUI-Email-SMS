@@ -36,19 +36,22 @@ class AttachmentTableViewController: UITableViewController {
 		}
 	}
 	
-	private func showEmail(with attachment: String) {
-		
-		guard MFMailComposeViewController.canSendMail() else { return } // check device can send email or not
-		
-		// initialize a mailComposert and configure the email template
+	lazy var mailComposer: MFMailComposeViewController = {
+		// initialize a mailComposer and configure the email template
 		let emailTitle = "Great Photo and Doc"
 		let messageBody = "Hey, check this out!"
 		let toRecipents = ["support@devxris.com"]
-		let mailComposer = MFMailComposeViewController()
-		mailComposer.mailComposeDelegate = self // conform to mailComposeDelegate
-		mailComposer.setSubject(emailTitle)
-		mailComposer.setMessageBody(messageBody, isHTML: false)
-		mailComposer.setToRecipients(toRecipents)
+		let composer = MFMailComposeViewController()
+		composer.mailComposeDelegate = self // conform to mailComposeDelegate
+		composer.setSubject(emailTitle)
+		composer.setMessageBody(messageBody, isHTML: false)
+		composer.setToRecipients(toRecipents)
+		return composer
+	}()
+	
+	private func showEmail(with attachment: String) {
+		
+		guard MFMailComposeViewController.canSendMail() else { return } // check device can send email or not
 		
 		// configure attachment and transfer to Data object
 		let fileParts = attachment.components(separatedBy: ".")
