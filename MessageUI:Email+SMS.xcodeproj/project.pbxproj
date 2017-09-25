@@ -8,20 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		4515B37A1F78D36E00D87B4F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4515B3791F78D36E00D87B4F /* AppDelegate.swift */; };
-		4515B37C1F78D36E00D87B4F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4515B37B1F78D36E00D87B4F /* ViewController.swift */; };
 		4515B37F1F78D36E00D87B4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4515B37D1F78D36E00D87B4F /* Main.storyboard */; };
 		4515B3811F78D36E00D87B4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4515B3801F78D36E00D87B4F /* Assets.xcassets */; };
 		4515B3841F78D36E00D87B4F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4515B3821F78D36E00D87B4F /* LaunchScreen.storyboard */; };
+		4515B3961F78D4B600D87B4F /* no more complaint.png in Resources */ = {isa = PBXBuildFile; fileRef = 4515B38E1F78D48E00D87B4F /* no more complaint.png */; };
+		4515B3971F78D4B800D87B4F /* Why Appcoda.doc in Resources */ = {isa = PBXBuildFile; fileRef = 4515B38F1F78D48E00D87B4F /* Why Appcoda.doc */; };
+		4515B3981F78D4BC00D87B4F /* 10 Great iPhone Tips.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4515B3901F78D49800D87B4F /* 10 Great iPhone Tips.pdf */; };
+		4515B3991F78D4C200D87B4F /* camera-photo-tips.html in Resources */ = {isa = PBXBuildFile; fileRef = 4515B3911F78D49800D87B4F /* camera-photo-tips.html */; };
+		4515B39A1F78D4C400D87B4F /* foggy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4515B3941F78D4A100D87B4F /* foggy.jpg */; };
+		4515B39B1F78D4C600D87B4F /* Hello World.ppt in Resources */ = {isa = PBXBuildFile; fileRef = 4515B3951F78D4AB00D87B4F /* Hello World.ppt */; };
+		4515B39D1F78D4DC00D87B4F /* AttachmentTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4515B39C1F78D4DC00D87B4F /* AttachmentTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4515B3761F78D36E00D87B4F /* MessageUI:Email+SMS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MessageUI:Email+SMS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4515B3791F78D36E00D87B4F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4515B37B1F78D36E00D87B4F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4515B37E1F78D36E00D87B4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4515B3801F78D36E00D87B4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4515B3831F78D36E00D87B4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4515B3851F78D36E00D87B4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4515B38E1F78D48E00D87B4F /* no more complaint.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "no more complaint.png"; sourceTree = "<group>"; };
+		4515B38F1F78D48E00D87B4F /* Why Appcoda.doc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Why Appcoda.doc"; sourceTree = "<group>"; };
+		4515B3901F78D49800D87B4F /* 10 Great iPhone Tips.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "10 Great iPhone Tips.pdf"; sourceTree = "<group>"; };
+		4515B3911F78D49800D87B4F /* camera-photo-tips.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = "camera-photo-tips.html"; sourceTree = "<group>"; };
+		4515B3941F78D4A100D87B4F /* foggy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = foggy.jpg; sourceTree = "<group>"; };
+		4515B3951F78D4AB00D87B4F /* Hello World.ppt */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Hello World.ppt"; sourceTree = "<group>"; };
+		4515B39C1F78D4DC00D87B4F /* AttachmentTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttachmentTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +66,44 @@
 		4515B3781F78D36E00D87B4F /* MessageUI:Email+SMS */ = {
 			isa = PBXGroup;
 			children = (
-				4515B3791F78D36E00D87B4F /* AppDelegate.swift */,
-				4515B37B1F78D36E00D87B4F /* ViewController.swift */,
-				4515B37D1F78D36E00D87B4F /* Main.storyboard */,
-				4515B3801F78D36E00D87B4F /* Assets.xcassets */,
-				4515B3821F78D36E00D87B4F /* LaunchScreen.storyboard */,
-				4515B3851F78D36E00D87B4F /* Info.plist */,
+				4515B38B1F78D37B00D87B4F /* Resources */,
+				4515B38C1F78D38600D87B4F /* View */,
+				4515B38D1F78D38C00D87B4F /* Controller */,
 			);
 			path = "MessageUI:Email+SMS";
+			sourceTree = "<group>";
+		};
+		4515B38B1F78D37B00D87B4F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4515B3801F78D36E00D87B4F /* Assets.xcassets */,
+				4515B3851F78D36E00D87B4F /* Info.plist */,
+				4515B38E1F78D48E00D87B4F /* no more complaint.png */,
+				4515B38F1F78D48E00D87B4F /* Why Appcoda.doc */,
+				4515B3901F78D49800D87B4F /* 10 Great iPhone Tips.pdf */,
+				4515B3911F78D49800D87B4F /* camera-photo-tips.html */,
+				4515B3941F78D4A100D87B4F /* foggy.jpg */,
+				4515B3951F78D4AB00D87B4F /* Hello World.ppt */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		4515B38C1F78D38600D87B4F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4515B3821F78D36E00D87B4F /* LaunchScreen.storyboard */,
+				4515B37D1F78D36E00D87B4F /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4515B38D1F78D38C00D87B4F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4515B3791F78D36E00D87B4F /* AppDelegate.swift */,
+				4515B39C1F78D4DC00D87B4F /* AttachmentTableViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,8 +166,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				4515B3841F78D36E00D87B4F /* LaunchScreen.storyboard in Resources */,
+				4515B3971F78D4B800D87B4F /* Why Appcoda.doc in Resources */,
+				4515B3991F78D4C200D87B4F /* camera-photo-tips.html in Resources */,
+				4515B39B1F78D4C600D87B4F /* Hello World.ppt in Resources */,
 				4515B3811F78D36E00D87B4F /* Assets.xcassets in Resources */,
+				4515B39A1F78D4C400D87B4F /* foggy.jpg in Resources */,
+				4515B3981F78D4BC00D87B4F /* 10 Great iPhone Tips.pdf in Resources */,
 				4515B37F1F78D36E00D87B4F /* Main.storyboard in Resources */,
+				4515B3961F78D4B600D87B4F /* no more complaint.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,8 +184,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4515B37C1F78D36E00D87B4F /* ViewController.swift in Sources */,
 				4515B37A1F78D36E00D87B4F /* AppDelegate.swift in Sources */,
+				4515B39D1F78D4DC00D87B4F /* AttachmentTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,7 +324,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9H46LQG73T;
-				INFOPLIST_FILE = "MessageUI:Email+SMS/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/MessageUI:Email+SMS/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.DevXris.MessageUI-Email-SMS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -291,7 +339,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9H46LQG73T;
-				INFOPLIST_FILE = "MessageUI:Email+SMS/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/MessageUI:Email+SMS/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.DevXris.MessageUI-Email-SMS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
